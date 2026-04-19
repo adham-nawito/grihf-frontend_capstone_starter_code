@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet"
+      href="../styles.css">
+    <link rel="stylesheet"
+      href="./Login.css">
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Login</h1>
+      <p> Are you a new member?
+        <a href="../Sign_Up/Sign_Up.html" style="color: var(--color-primary)">Sign Up here</a>
+      </p>
+      <form>
+
+        <div
+          class="form-item-container">
+          <label for="email">Email
+            *</label>
+          <input type="text" id="email"
+            name="email"
+            placeholder="Enter your email"
+            required>
+        </div>
+
+        <div
+          class="form-item-container">
+          <label for="password">Password
+            *</label>
+          <div class="password-wrapper">
+            <input type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required>
+            <span
+              class="toggle-password">
+              <img id="eye-icon"
+                src="../assets/hide.png"
+                alt="Toggle password"
+                width="18">
+            </span>
+          </div>
+        </div>
+
+        <div
+          style="display: flex; flex-direction: column; gap:10px; width: 270px;">
+          <button type="submit"
+            class="btn-primary">Submit</button>
+          <button type="button"
+            class="btn-alert">Reset</button>
+        </div>
+      </form>
+              <a style="margin-top: 10px;">Forgot Password?</a>
+    </main>
+  </body>
+
+</html>

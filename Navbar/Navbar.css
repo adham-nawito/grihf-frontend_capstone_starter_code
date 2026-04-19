@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-light);
+  padding: 20px;
+}
+
+.navbar-items {
+  display: flex;
+  gap: var(--navbar-gap);
+  align-items: center;
+}
