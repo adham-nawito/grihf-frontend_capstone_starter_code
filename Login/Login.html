@@ -27,6 +27,7 @@
           <input type="text" id="email"
             name="email"
             placeholder="Enter your email"
+            pattern=".+@company\.com"
             required>
         </div>
 
@@ -51,11 +52,11 @@
         </div>
 
         <div
-          style="display: flex; flex-direction: column; gap:10px; width: 270px;">
+          style="display: flex; flex-direction: column; gap:10px; width: 100%;">
           <button type="submit"
             class="btn-primary">Submit</button>
-          <button type="button"
-            class="btn-alert">Reset</button>
+          <input type="reset"
+            class="btn-alert"></input>
         </div>
       </form>
               <a style="margin-top: 10px;">Forgot Password?</a>

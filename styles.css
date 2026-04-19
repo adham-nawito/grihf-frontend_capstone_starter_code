@@ -61,14 +61,16 @@ a:hover {
 
 input {
   padding: 0.5rem;
-  width: 250px;
+  width: 100%;
+  max-width: 360px;
   border: 1px solid var(--color-pale-gray);
   border-radius: var(--border-radius);
 }
 
 select {
   padding: 0.5rem;
-  width: 265px;
+  width: 100%;
+  max-width: 360px;
   border: 1px solid var(--color-pale-gray);
   border-radius: var(--border-radius);
 }

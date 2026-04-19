@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
   background-color: var(--body-background-color);
 }
 
@@ -11,11 +13,20 @@
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-item-container input {
+  width: 100%;
 }
 
 .password-wrapper {
   position: relative;
-  width: fit-content;
+  width: 100%;
+}
+
+.password-wrapper input {
+  width: 100%;
 }
 
 .toggle-password {
@@ -25,4 +36,17 @@
   transform: translateY(-50%);
   cursor: pointer;
   line-height: 0;
+}
+
+form {
+  width: 100%;
+  max-width: 360px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem 1rem;
+    justify-content: flex-start;
+    padding-top: 2rem;
+  }
 }

@@ -36,11 +36,12 @@
 .hero-section .button {
     padding: 0.7rem 2rem;
     border-radius: 25px;
-    background-color: #2190FF;
+    background-color: #0066CC;
     color: #fff;
     border: 1px solid transparent;
-    width: 15%;
-    margin-top:15px;
+    width: clamp(120px, 20%, 200px);
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 .hero-section div:nth-child(2) {
